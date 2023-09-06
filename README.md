@@ -11,7 +11,7 @@ pip install python-dotenv
 - create a ntfy.sh topic (the script does not handle auth to ntfy.sh, so pick a random name for the topic, think of it as a password)
 - adapt .env with your topic and ntfy.sh server
 - Install ntfy.sh mobile app and subscribe to the topic to get notifications on your phone
-- run scanBlueInvites.py
+- python3 scanBlueInvites.py
 
 ## Optional : run a cron job every hours & almost forget :)
 - chmod +x scanBlueInvites.py
