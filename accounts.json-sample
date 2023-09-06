@@ -1,0 +1,4 @@
+# the file accounts.json contain the list of bluesky accounts using this format, remove this line.
+{".bsky.social": "abcd-abcd-abcd-abcd",
+".bsky.social": "efgh-efgh-efgh-efgh",
+".bsky.social": "ijkl-ijkl-ijkl-ijkl"}
