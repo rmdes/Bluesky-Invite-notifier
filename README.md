@@ -20,3 +20,6 @@ pip install python-dotenv
 
 `0 * * * * /usr/bin/python3 /home/Bluesky-Invite-notifier/scanBlueInvites.py >> /home/Bluesky-Invite-notifier/cron.log 2>&1
 `
+## Credit
+
+[mwyann.fr](https://github.com/Mwyann/)
