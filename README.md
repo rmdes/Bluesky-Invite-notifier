@@ -16,5 +16,7 @@ pip install python-dotenv
 ## Optional : run a cron job every hours & almost forget :)
 - chmod +x scanBlueInvites.py
 - crontab -e
-- copy this line and adapt to the path of the script
-0 * * * * /usr/bin/python3 /home/Bluesky-Invite-notifier/scanBlueInvites.py >> /home/Bluesky-Invite-notifier/cron.log 2>&1
+- copy this line and adapt to your script path
+
+`0 * * * * /usr/bin/python3 /home/Bluesky-Invite-notifier/scanBlueInvites.py >> /home/Bluesky-Invite-notifier/cron.log 2>&1
+`
