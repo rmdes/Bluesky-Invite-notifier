@@ -11,14 +11,14 @@ pip install python-dotenv
 - create a ntfy.sh topic (the script does not handle auth to ntfy.sh, so pick a random name for the topic, think of it as a password)
 - adapt .env with your topic and ntfy.sh server
 - Install ntfy.sh mobile app and subscribe to the topic to get notifications on your phone
-- python3 scanBlueInvites.py
+- `python3 scanBlueInvites.py`
 
 ## Optional : run a cron job every hours & almost forget :)
 - chmod +x scanBlueInvites.py
 - crontab -e
 - copy this line and adapt to your script path
 
-`0 * * * * /usr/bin/python3 /home/Bluesky-Invite-notifier/scanBlueInvites.py >> /home/Bluesky-Invite-notifier/cron.log 2>&1
+`0 * * * * cd /home/scripts/invites-notifier && /usr/bin/python3 scanBlueInvites.py >> cron.log 2>&1
 `
 ## Credit
 
